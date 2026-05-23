@@ -172,14 +172,28 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#ffffff10] rounded-3xl p-6 border border-[#ffffff15] backdrop-blur-lg">
-              <p className="text-[#d8bfd2] mb-2">Email</p>
-              <p className="text-lg">yourmail@gmail.com</p>
-            </div>
+  <p className="text-[#d8bfd2] mb-2">Email</p>
+
+  <a
+    href="mailto:aditi.gunapal@gmail.com"
+    className="text-lg hover:text-[#F5D5E0] transition"
+  >
+    aditi.gunapal@gmail.com
+  </a>
+</div>
 
             <div className="bg-[#ffffff10] rounded-3xl p-6 border border-[#ffffff15] backdrop-blur-lg">
-              <p className="text-[#d8bfd2] mb-2">LinkedIn</p>
-              <p className="text-lg">linkedin.com/in/yourname</p>
-            </div>
+  <p className="text-[#d8bfd2] mb-2">LinkedIn</p>
+
+  <a
+    href="https://linkedin.com/in/yourname"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-lg hover:text-[#F5D5E0] transition"
+  >
+    https://www.linkedin.com/in/aditi-gunapal/
+  </a>
+</div>
 
             <div className="bg-[#ffffff10] rounded-3xl p-6 border border-[#ffffff15] backdrop-blur-lg">
               <p className="text-[#d8bfd2] mb-2">GitHub</p>
